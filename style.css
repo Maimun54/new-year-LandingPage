@@ -2,6 +2,9 @@ body{
     width: 1320px;
     margin: auto;
 }
+section{
+    padding-bottom: 50px
+}
 .hero_bg{
     background-image:url(images/Banner\ -Image.png);
     width: 1320px;
@@ -81,7 +84,7 @@ line-height: normal;
     background-image:url(images/Vectorrr.png);
     width:1320px;
     margin:auto;
-    height:600px;
+    height:500px;
     background-repeat: no-repeat;
     background-size:cover;
     margin:auto;
@@ -89,4 +92,83 @@ line-height: normal;
     border-radius:16px;
     /* background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%); */
     background-color: #0c0913; /* Fallback for older browsers */
+    padding-bottom: 0px;
+}
+.midnight_container{
+    display: flex;
+}
+.welcome_title{
+    color: #FFF;
+
+font-family: Merriweather;
+font-size: 64px;
+font-style: normal;
+font-weight: 900;
+line-height: 88px; /* 137.5% */
+letter-spacing: 7.04px;
+}
+.welcome_des{
+    color: rgba(255, 255, 255, 0.80);
+
+font-family: Inter;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px; /* 166.667% */
+}
+.joinUsbtn{
+    color: #FFF;
+
+text-align: center;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+text-transform: uppercase;
+}
+.midnightALL{
+    margin-left: 126px;
+}
+.location{
+    background-color: rgba(255, 0, 0, 0.05);
+    height: 450px;
+    /* margin: auto; */
+    text-align: center;
+    padding-top: 50px;
+}
+.place,.date,.time{
+    color: #070211;
+font-family: Inter;
+font-size: 32px;
+font-style: normal;
+font-weight: 600;
+line-height: 56px;
+text-transform: capitalize;
+}
+.Coming_soon{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+}
+.imgBorders{
+    /* border: 15px solid red; */
+    /* border-radius: 50%; */
+    width: 360px;
+    height: 360px;
+    
+    text-align: center;
+}
+.imgbtn{
+    border: 15px solid red;
+    border-radius: 50%;
+    width: 460px;
+    height: 460px;
+    align-items: center;
+    text-align: center;
+}
+.imgbtn img {
+   
+    padding: 46px;
 }
